@@ -594,7 +594,7 @@ def run_bot(body):
       'status':'Running',
     }
     print("Updating Bot Status to Running")
-    exec_request(f"https://workflows-api.xilo.io/api/org/{org_id}/rate-jobs/update-status/{job_id}", status_update, 'put', auth_token)
+    # exec_request(f"https://workflows-api.xilo.io/api/org/{org_id}/rate-jobs/update-status/{job_id}", status_update, 'put', auth_token)
     # exec_request(f"http://host.docker.internal:3333/api/org/{org_id}/rate-jobs/update-status/{job_id}", status_update, 'put', auth_token)
 
     # login

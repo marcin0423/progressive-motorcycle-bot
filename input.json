@@ -1,1 +1,246 @@
-{"createdById": 1, "createdByRole": "admin", "type": "Quote", "status": "Created", "requestId": 316, "orgId": 1, "clientId": 7203, "insuranceDataId": 55, "submissionId": "", "carrierId": 1, "lob": "motorcycle", "usState": "AZ", "data": {"Drivers": [{"BirthDt": "1993-12-16T00:00:00.000Z", "GenderCd": "M", "LastName": "User", "FirstName": "Test", "BirthDtDay": 16, "BirthDtYear": 1993, "BirthDtMonth": 12, "MaritalStatus": "M", "DriverRelationshipToApplicantCd": "IN"}, {"BirthDt": "1994-12-16T00:00:00.000Z", "GenderCd": "F", "LastName": "User", "FirstName": "Test", "BirthDtDay": 16, "BirthDtYear": 1993, "BirthDtMonth": 12, "MaritalStatus": "M", "DriverRelationshipToApplicantCd": "SP"}], "Insured": [{"id": 1, "Addr": {"City": "San Diego", "Addr1": "3650 Fallon Circle", "PostalCode": "92130", "StreetName": "Fallon Circle", "FullAddress": "3650 Fallon Cir, San Diego, CA 92130, USA", "StateProvCd": "CA", "StreetNumber": 3650}, "Email": "test@sewell.com", "BirthDt": "1993-12-16T00:00:00.000Z", "Insured": "Insured-1", "FullName": "Test User", "GenderCd": "M", "LastName": "User", "FirstName": "Test", "BirthDtDay": 16, "BirthDtYear": 1993, "InsuredRole": "FNI", "BirthDtMonth": 12, "MaritalStatus": "S", "CellPhoneNumber": "+1-302-6075612", "HomePhoneNumber": "+1-302-6075612", "CellPhoneNumberPrefix": "607", "CellPhoneNumberSuffix": "5612", "HomePhoneNumberPrefix": "607", "HomePhoneNumberSuffix": "5612", "CellPhoneNumberAreaCode": "302", "HomePhoneNumberAreaCode": "302"}], "Motorcycles": [{"VIN": "5HD1FC4157Y653840", "Model": "TW200", "ModelYear": "2016", "LojackDevice": "1", "Manufacturer": "Yamaha", "MotorcycleUse": "PL", "EstimatedAnnualDistance": 2500, "TrikeInd": "0", "EngineSize": 196, "Modifications": "0", "YearsRiding": 5, "Endorsement": "1"}, {"VIN": "1HD1PG8448Y958361", "Model": "CB500X", "ModelYear": "2017", "LojackDevice": "1", "Manufacturer": "Honda", "MotorcycleUse": "OR", "OffRoadUse": "Hunting", "EstimatedAnnualDistance": 7500, "TrikeInd": "0", "EngineSize": 471, "Modifications": "0", "YearsRiding": 4, "Endorsement": "0"}], "MailingAddress": {"City": "San Diego", "Addr1": "3650 Fallon Circle", "PostalCode": "92130", "StateProvCd": "CA"}, "MotorcyclePersPolicy": {"RenewalTerm": "6", "PaymentPlanCd": "FL", "PolicyStatusCd": "NBS", "MethodPaymentCd": "CreditCard", "AttachmentTypeCd": "1", "EffectiveDate": "2024-07-29T00:00:00.000Z", "OtherOrPriorPolicy": {"HasPriorInsurance": "Yes", "InsurerName": "AAA", "ExpirationDt": "2024-07-17T00:00:00.000Z"}}, "TransactionRequestDt": "2024-06-29T00:00:00.000Z", "Location": {"City": "Tuscon", "Addr1": "3115 N Fairview Ave", "PostalCode": "85705", "StreetName": "N Fairview Ave", "FullAddress": "3115 N Fairview Ave, Tuscon, AZ 85705, USA", "StateProvCd": "AZ", "StreetNumber": 3115}, "RatingState": "CA", "CustomFields": {"AMS360": {"CrossReference": [{"CrossReferenceType": "X-Reference", "CrossReferenceValue": "User, Test"}]}}}, "execMode": "test", "createdAt": "2024-07-18T15:48:23.211Z", "updatedById": 1, "updatedByRole": "admin", "updatedAt": "2024-07-18T15:48:23.211Z", "deletedById": "", "deletedByRole": "", "error": "", "resultedAt": "", "id": 425, "deletedAt": "", "first_name": "Test", "last_name": "User", "gender": "Male", "email": "test@sewell.com", "date_of_birth": "12151993", "primary_residence": "Own Home/Condo", "effective_date": "07282024", "how_long_at_residence": "1-2 years", "disclosure": "Yes", "motorcycles": [{"vehicle_types": "Motorcycle", "vin": "5HD1FC4157Y653840", "year": "2016", "make": "Yamaha", "model": "TW200", "is_this_vehicle_trike": "No", "primary_vehicle_use": "On-Road", "annual_miles_ridden": 2500, "modified_frame_turbo": "No", "lo_jack": "Yes", "anti_lock_brakes": "No", "purchase_year": "2016", "engine_size": 196}, {"vehicle_types": "Motorcycle", "vin": "1HD1PG8448Y958361", "year": "2017", "make": "Honda", "model": "CB500X", "is_this_vehicle_trike": "No", "primary_vehicle_use": "Off-Road Use", "off_road_use": "Hunting", "annual_miles_ridden": 7500, "modified_frame_turbo": "No", "lo_jack": "Yes", "anti_lock_brakes": "No", "purchase_year": "2017", "engine_size": 471}], "drivers": [{"marital_status": "Married", "driver_license_status": "Valid", "years_licensed": 5, "motorcycle_endorsement": "Yes", "years_riding_experience": 5, "approved_safety_course": "Yes", "date_of_birth": "12151993", "how_often_ride": "Weekly", "highest_education": "College degree", "relationship": "Other", "coll_deductible": "$250 Actual Cash Value", "comp_deducltible": "$250 Actual Cash Value", "first_name": "Test", "last_name": "User", "gender": "Male"}, {"marital_status": "Married", "driver_license_status": "Valid", "years_licensed": 5, "motorcycle_endorsement": "Yes", "years_riding_experience": 5, "approved_safety_course": "Yes", "date_of_birth": "12151994", "how_often_ride": "Weekly", "highest_education": "College degree", "relationship": "Spouse", "coll_deductible": "$250 Actual Cash Value", "comp_deducltible": "$250 Actual Cash Value", "first_name": "Test", "last_name": "User", "gender": "Female"}], "has_prior_insurance": "Yes", "prior_carrier": "AAA", "prior_expiration_date": "07162024", "bodily_injury": "25/50/15", "uninsured_motorist": "25/50", "underinsured_motorist": "25/50", "medical_payment": "$5,000 Per Person", "mailing_address_line_1": "3115 N Fairview Ave", "city": "Tuscon", "state": "Arizona", "zip": "85705", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ0eXBlIjoiYWRtaW4iLCJjb21wYW55SWQiOjEsInVzZXJuYW1lIjoia2FpbGFoQHhpbG8uaW8iLCJjb21wYW55VXNlcklkIjoxLCJ3b3JrZmxvd3NBY2NvdW50SWQiOjR9LCJpYXQiOjE3MjA3MTUzNTMsImV4cCI6MTcyMTMyMDE1M30.iCR5XVM7_z8I43XGpr8gmWma1I_mYzOR97o0f57P2tc"}
+{
+    "createdById": 1,
+    "createdByRole": "admin",
+    "type": "Quote",
+    "status": "Created",
+    "requestId": 316,
+    "orgId": 1,
+    "clientId": 7203,
+    "insuranceDataId": 55,
+    "submissionId": "",
+    "carrierId": 1,
+    "lob": "motorcycle",
+    "usState": "AZ",
+    "data": {
+        "Drivers": [
+            {
+                "BirthDt": "1993-12-16T00:00:00.000Z",
+                "GenderCd": "M",
+                "LastName": "User",
+                "FirstName": "Test",
+                "BirthDtDay": 16,
+                "BirthDtYear": 1993,
+                "BirthDtMonth": 12,
+                "MaritalStatus": "M",
+                "DriverRelationshipToApplicantCd": "IN"
+            },
+            {
+                "BirthDt": "1994-12-16T00:00:00.000Z",
+                "GenderCd": "F",
+                "LastName": "User",
+                "FirstName": "Test",
+                "BirthDtDay": 16,
+                "BirthDtYear": 1993,
+                "BirthDtMonth": 12,
+                "MaritalStatus": "M",
+                "DriverRelationshipToApplicantCd": "SP"
+            }
+        ],
+        "Insured": [
+            {
+                "id": 1,
+                "Addr": {
+                    "City": "San Diego",
+                    "Addr1": "3650 Fallon Circle",
+                    "PostalCode": "92130",
+                    "StreetName": "Fallon Circle",
+                    "FullAddress": "3650 Fallon Cir, San Diego, CA 92130, USA",
+                    "StateProvCd": "CA",
+                    "StreetNumber": 3650
+                },
+                "Email": "test@sewell.com",
+                "BirthDt": "1993-12-16T00:00:00.000Z",
+                "Insured": "Insured-1",
+                "FullName": "Test User",
+                "GenderCd": "M",
+                "LastName": "User",
+                "FirstName": "Test",
+                "BirthDtDay": 16,
+                "BirthDtYear": 1993,
+                "InsuredRole": "FNI",
+                "BirthDtMonth": 12,
+                "MaritalStatus": "S",
+                "CellPhoneNumber": "+1-302-6075612",
+                "HomePhoneNumber": "+1-302-6075612",
+                "CellPhoneNumberPrefix": "607",
+                "CellPhoneNumberSuffix": "5612",
+                "HomePhoneNumberPrefix": "607",
+                "HomePhoneNumberSuffix": "5612",
+                "CellPhoneNumberAreaCode": "302",
+                "HomePhoneNumberAreaCode": "302"
+            }
+        ],
+        "Motorcycles": [
+            {
+                "VIN": "5HD1FC4157Y653840",
+                "Model": "TW200",
+                "ModelYear": "2016",
+                "LojackDevice": "1",
+                "Manufacturer": "Yamaha",
+                "MotorcycleUse": "PL",
+                "EstimatedAnnualDistance": 2500,
+                "TrikeInd": "0",
+                "EngineSize": 196,
+                "Modifications": "0",
+                "YearsRiding": 5,
+                "Endorsement": "1"
+            },
+            {
+                "VIN": "1HD1PG8448Y958361",
+                "Model": "CB500X",
+                "ModelYear": "2017",
+                "LojackDevice": "1",
+                "Manufacturer": "Honda",
+                "MotorcycleUse": "OR",
+                "OffRoadUse": "Hunting",
+                "EstimatedAnnualDistance": 7500,
+                "TrikeInd": "0",
+                "EngineSize": 471,
+                "Modifications": "0",
+                "YearsRiding": 4,
+                "Endorsement": "0"
+            }
+        ],
+        "MailingAddress": {
+            "City": "San Diego",
+            "Addr1": "3650 Fallon Circle",
+            "PostalCode": "92130",
+            "StateProvCd": "CA"
+        },
+        "MotorcyclePersPolicy": {
+            "RenewalTerm": "6",
+            "PaymentPlanCd": "FL",
+            "PolicyStatusCd": "NBS",
+            "MethodPaymentCd": "CreditCard",
+            "AttachmentTypeCd": "1",
+            "EffectiveDate": "2024-07-29T00:00:00.000Z",
+            "OtherOrPriorPolicy": {
+                "HasPriorInsurance": "Yes",
+                "InsurerName": "AAA",
+                "ExpirationDt": "2024-07-17T00:00:00.000Z"
+            }
+        },
+        "TransactionRequestDt": "2024-06-29T00:00:00.000Z",
+        "Location": {
+            "City": "Tuscon",
+            "Addr1": "3115 N Fairview Ave",
+            "PostalCode": "85705",
+            "StreetName": "N Fairview Ave",
+            "FullAddress": "3115 N Fairview Ave, Tuscon, AZ 85705, USA",
+            "StateProvCd": "AZ",
+            "StreetNumber": 3115
+        },
+        "RatingState": "CA",
+        "CustomFields": {
+            "AMS360": {
+                "CrossReference": [
+                    {
+                        "CrossReferenceType": "X-Reference",
+                        "CrossReferenceValue": "User, Test"
+                    }
+                ]
+            }
+        }
+    },
+    "execMode": "test",
+    "createdAt": "2024-07-18T15:48:23.211Z",
+    "updatedById": 1,
+    "updatedByRole": "admin",
+    "updatedAt": "2024-07-18T15:48:23.211Z",
+    "deletedById": "",
+    "deletedByRole": "",
+    "error": "",
+    "resultedAt": "",
+    "id": 425,
+    "deletedAt": "",
+    "first_name": "Test",
+    "last_name": "User",
+    "gender": "Male",
+    "email": "test@sewell.com",
+    "date_of_birth": "12151993",
+    "primary_residence": "Own Home/Condo",
+    "effective_date": "07282024",
+    "how_long_at_residence": "1-2 years",
+    "disclosure": "Yes",
+    "motorcycles": [
+        {
+            "vehicle_types": "Motorcycle",
+            "vin": "5HD1FC4157Y653840",
+            "year": "2016",
+            "make": "Yamaha",
+            "model": "TW200",
+            "is_this_vehicle_trike": "No",
+            "primary_vehicle_use": "On-Road",
+            "annual_miles_ridden": 2500,
+            "modified_frame_turbo": "No",
+            "lo_jack": "Yes",
+            "anti_lock_brakes": "No",
+            "purchase_year": "2016",
+            "engine_size": 196
+        },
+        {
+            "vehicle_types": "Motorcycle",
+            "vin": "1HD1PG8448Y958361",
+            "year": "2017",
+            "make": "Honda",
+            "model": "CB500X",
+            "is_this_vehicle_trike": "No",
+            "primary_vehicle_use": "Off-Road Use",
+            "off_road_use": "Hunting",
+            "annual_miles_ridden": 7500,
+            "modified_frame_turbo": "No",
+            "lo_jack": "Yes",
+            "anti_lock_brakes": "No",
+            "purchase_year": "2017",
+            "engine_size": 471
+        }
+    ],
+    "drivers": [
+        {
+            "marital_status": "Married",
+            "driver_license_status": "Valid",
+            "years_licensed": 5,
+            "motorcycle_endorsement": "Yes",
+            "years_riding_experience": 5,
+            "approved_safety_course": "Yes",
+            "date_of_birth": "12151993",
+            "how_often_ride": "Weekly",
+            "highest_education": "College degree",
+            "relationship": "Other",
+            "coll_deductible": "$250 Actual Cash Value",
+            "comp_deducltible": "$250 Actual Cash Value",
+            "first_name": "Test",
+            "last_name": "User",
+            "gender": "Male"
+        },
+        {
+            "marital_status": "Married",
+            "driver_license_status": "Valid",
+            "years_licensed": 5,
+            "motorcycle_endorsement": "Yes",
+            "years_riding_experience": 5,
+            "approved_safety_course": "Yes",
+            "date_of_birth": "12151994",
+            "how_often_ride": "Weekly",
+            "highest_education": "College degree",
+            "relationship": "Spouse",
+            "coll_deductible": "$250 Actual Cash Value",
+            "comp_deducltible": "$250 Actual Cash Value",
+            "first_name": "Test",
+            "last_name": "User",
+            "gender": "Female"
+        }
+    ],
+    "has_prior_insurance": "Yes",
+    "prior_carrier": "AAA",
+    "prior_expiration_date": "07162024",
+    "bodily_injury": "25/50/15",
+    "uninsured_motorist": "25/50",
+    "underinsured_motorist": "25/50",
+    "medical_payment": "$5,000 Per Person",
+    "mailing_address_line_1": "3115 N Fairview Ave",
+    "city": "Tuscon",
+    "state": "Arizona",
+    "zip": "85705",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ0eXBlIjoiYWRtaW4iLCJjb21wYW55SWQiOjEsInVzZXJuYW1lIjoia2FpbGFoQHhpbG8uaW8iLCJjb21wYW55VXNlcklkIjoxLCJ3b3JrZmxvd3NBY2NvdW50SWQiOjR9LCJpYXQiOjE3MjA3MTUzNTMsImV4cCI6MTcyMTMyMDE1M30.iCR5XVM7_z8I43XGpr8gmWma1I_mYzOR97o0f57P2tc"
+}
