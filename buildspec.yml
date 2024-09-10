@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.12
+    commands:
+      - npm install -g serverless@3.38.0
+  build:
+    commands:
+      - serverless deploy --stage dev --verbose

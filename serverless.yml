@@ -1,0 +1,27 @@
+service: progressive-motorcycle-bot
+frameworkVersion: '3'
+useDotenv: true # automatically loads environment variables from .env files
+
+provider:
+  name: aws
+  runtime: python3.10
+  ecr:
+    images:
+      appimage:
+        path: ./
+        file: Dockerfile
+        platform: linux/amd64
+
+functions:
+  scrape:
+    timeout: 300
+    memorySize: 2048
+    url:
+      cors: true
+    image:
+      name: appimage
+    # events:
+    #   - http:
+    #       path: scrape
+    #       method: post
+    #       cors: true
